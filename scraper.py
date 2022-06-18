@@ -6,7 +6,7 @@ from selenium.webdriver.common.action_chains import ActionChains #導入selenium
 
 driver = webdriver.Chrome(ChromeDriverManager().install()) 
 
-driver.get('https://shopee.tw/mall/%E5%B1%85%E5%AE%B6%E7%94%9F%E6%B4%BB-cat.11040925')  
+driver.get('https://shopee.tw/mall/%E6%9B%B8%E7%B1%8D%E5%8F%8A%E9%9B%9C%E8%AA%8C%E6%9C%9F%E5%88%8A-cat.11041120')  
 time.sleep(5)
 
 ActionChains(driver).move_by_offset(100,100).click().perform()  #用ActionChains動作鏈模組移動滑鼠到(100,100)的位置
