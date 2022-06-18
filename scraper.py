@@ -36,6 +36,6 @@ for item in items:  #items的第三個抓取物件，就是商品的超連結(li
     comments = driver.find_elements(By.CSS_SELECTOR, "div[class='Em3Qhp'")  #用定位元素，尋找所有class屬性值為Em3Qhp的物件
     for comment in comments:
         result.append((item[0],item[1],comment.text))  #用text屬性爬取評價上的資料
-    break
+    
 
 print(result)
